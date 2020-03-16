@@ -11,6 +11,7 @@
     <modules>
         <module>cloud-provicer-payment8002</module>
         <module>cloud-comsumer-order80</module>
+        <module>cloud-consumer-consul-order80</module>
         <module>cloud-api-commons</module>
         <module>cloud-providerconsul-payment8005</module>
         <module>cloud-providerconsul-payment8006</module>
@@ -18,6 +19,9 @@
         <module>cloud-provider-hystrix-payment8007</module>
         <module>cloud-consumer-feign-hystrix-order80</module>
         <module>cloud-consumer-hystrix-dashboard9001</module>
+        <module>cloud-stream-rabbitmq-provider8801</module>
+        <module>cloud-stream-rabbitmq-consumer8802</module>
+        <module>cloud-stream-rabbitmq-consumer8803</module>
     </modules>
 
     <name>Maven</name>
@@ -41,7 +45,7 @@
         <lombok.version>1.16.18</lombok.version>
         <mysql.version>8.0.18</mysql.version>
         <druid.verison>1.1.16</druid.verison>
-        <spring-boot-dependencies.version>2.2.1.RELEASE</spring-boot-dependencies.version>
+        <spring-boot-dependencies.version>2.2.2.RELEASE</spring-boot-dependencies.version>
         <spring-cloud-dependencies.version>Hoxton.RELEASE</spring-cloud-dependencies.version>
         <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
     </properties>
