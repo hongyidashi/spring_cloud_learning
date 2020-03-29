@@ -1,7 +1,8 @@
 # springcloud学习
 
 #### 介绍
-springcloud学习代码
+&emsp;&emsp;springcloud学习代码
+&emsp;&emsp;第一轮学习已完结~（2020/3/19）
 
 #### 版本说明
 1. springboot版本为 2.2.2.RELEASE
